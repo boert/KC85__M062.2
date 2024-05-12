@@ -73,7 +73,9 @@ Bit 0 | Modulzustand M
 
 ### Beispiel
 Angenommen das Modul M062.2 steckt im Modulschacht 0C. 
+
 Um das Segement 3 im Speicher auf Adresse 4000h im Modus Schreiben/Lesen zu aktivieren, wird der CAOS-Befehl "SWITCH C 4F" verwendet. 
+
 Um das Segement 7 im Speicher auf Adresse C000h im Modul Nur-Lesen zu aktivieren, wird der CAOS-Befehl "SWITCH C DD" verwendet.
 
 ## Links
