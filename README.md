@@ -36,8 +36,8 @@ Bedeutung | A | A | A | S | S | S | W | M
 
 Das Speichermodul kann aus dem System CAOS mit dem Befehl SWITCH geschaltet werden.
 
-Bits 7 | 6 | 5 | Adressauswahl A
------- | - | - | ---------------
+Bit 7 | Bit 6 | Bit 5 | Adressauswahl A
+----- | ----- | ----- | ---------------
 0 | 0 | 0 | 0000h
 0 | 0 | 1 | 2000h
 0 | 1 | 0 | 4000h
@@ -47,28 +47,28 @@ Bits 7 | 6 | 5 | Adressauswahl A
 1 | 1 | 0 | C000h
 1 | 1 | 1 | E000h
 
-Bits 4 | 3 | 2 | Segment S
------- | - | - | ---------
-     0 | 0 | 0 | 0
-     0 | 0 | 1 | 1
-     0 | 1 | 0 | 2
-     0 | 1 | 1 | 3
-     1 | 0 | 0 | 4
-     1 | 0 | 1 | 5
-     1 | 1 | 0 | 6
-     1 | 1 | 1 | 7
+Bit 4 | Bit 3 | Bit 2 | Segment S
+----- | ----- | ----- | ---------
+0 | 0 | 0 | 0
+0 | 0 | 1 | 1
+0 | 1 | 0 | 2
+0 | 1 | 1 | 3
+1 | 0 | 0 | 4
+1 | 0 | 1 | 5
+1 | 1 | 0 | 6
+1 | 1 | 1 | 7
 
 Die Segmente 4 bis 7 existieren nur bei Bestückung mit 64 kByte EPROM.
 
-Bit  1 | Schreibschutz W
------- | ------
-     0 | aktiv (read only)
-     1 | inaktiv (read write)
+Bit 1 | Schreibschutz W
+----- | ------
+0 | aktiv (read only)
+1 | inaktiv (read write)
 
-Bit  0 | Modulzustand M
------- | ------
-     0 | inaktiv
-     1 | aktiv
+Bit 0 | Modulzustand M
+----- | ------
+0 | inaktiv
+1 | aktiv
 
 
 ### Beispiel
