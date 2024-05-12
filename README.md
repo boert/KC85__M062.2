@@ -38,14 +38,14 @@ Das Speichermodul kann aus dem System CAOS mit dem Befehl SWITCH geschaltet werd
 
 Bits 7 | 6 | 5 | Adressauswahl A
 ------ | - | - | ---------------
-     0 | 0 | 0 | 0000h
-     0 | 0 | 1 | 2000h
-     0 | 1 | 0 | 4000h
-     0 | 1 | 1 | 6000h
-     1 | 0 | 0 | 8000h
-     1 | 0 | 1 | A000h
-     1 | 1 | 0 | C000h
-     1 | 1 | 1 | E000h
+0 | 0 | 0 | 0000h
+0 | 0 | 1 | 2000h
+0 | 1 | 0 | 4000h
+0 | 1 | 1 | 6000h
+1 | 0 | 0 | 8000h
+1 | 0 | 1 | A000h
+1 | 1 | 0 | C000h
+1 | 1 | 1 | E000h
 
 Bits 4 | 3 | 2 | Segment S
 ------ | - | - | ---------
