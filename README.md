@@ -12,9 +12,9 @@ Die hier vorgestellte Lösung entstand auf Basis einer Schaltungsbeschreibung in
 Mit Hilfe von yosys [^2] und dem ghdl-plugin [^3] ist es möglich aus der Schaltungsbeschreibung eine Netzliste zu erzeugen, die Elemente aus einer bereitgestellten TTL-Bibliothek verwendet.
 
 <p align="center">
-  <img alt="Synthetisierte Schaltung" src="Bilder/cpld_rtl.png" width="45%">
+  <img alt="Synthetisierte Schaltung" src="Bilder/cpld_rtl.png" width="45%" border="1">
 &nbsp;
-  <img alt="Mapping auf TTL-Schaltkreise" src="Bilder/cpld_gate_level.png" width="45%">
+  <img alt="Mapping auf TTL-Schaltkreise" src="Bilder/cpld_gate_level.png" width="45%" border="1">
 </p>
 
 Diese Netzliste wurde als Basis für den Schaltplan herangezogen.
